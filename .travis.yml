@@ -1,10 +1,9 @@
-
 language : c
 compiler : gcc
 before_install : 
--echo "before Install"
+ - echo "before Install"
 install :
-- echo "install"
+ - echo "install"
 script :
-- gcc test.c -o test
-- ./test
+ - gcc test.c -o test
+ - ./test
